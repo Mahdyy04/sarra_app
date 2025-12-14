@@ -1,0 +1,32 @@
+.navbar{
+    height: 4rem;
+    border-bottom: var(--border) 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.navbar .logo{
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.nav-links > a{
+    margin-left: 1.5rem;
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.nav-links > a:hover{
+    border: 2px solid var(--border);
+}
+
+.nav-links a:last-child{
+    color: var(--error);
+}
+
+.nav-links a:last-child:hover{
+    border: 2px solid var(--error);
+}

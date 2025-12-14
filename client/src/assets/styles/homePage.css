@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+.home-container {
+  font-family: "Handlee", cursive;
+}
+
+/* ------HERO SECTION---------- */
+
+.home-container .hero-section {
+  height: 80vh;
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container .hero-section h1 {
+  font-size: 6rem;
+  font-weight: 100;
+}
+
+.home-container .hero-section p {
+  width: 52ch;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.home-container .hero-section p span {
+  font-weight: bold;
+}
+
+.home-container .hero-section p span:nth-child(1) {
+  color: var(--primary-light);
+}
+
+.home-container .hero-section p span:nth-child(2) {
+  color: var(--secondary);
+}
+
+.home-container .buttons-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.home-container .buttons-container a {
+  border-radius: 5px;
+  width: 150px;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+
+.home-container .buttons-container a:nth-child(1) {
+  color: var(--primary-light);
+  border: 2px solid var(--primary-light);
+}
+
+.home-container .buttons-container a:nth-child(1):hover {
+  background-color: var(--primary-light);
+  color: white;
+}
+
+.home-container .buttons-container a:nth-child(2) {
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+
+.home-container .buttons-container a:nth-child(2):hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.home-container .buttons-container #generer-btn {
+  position: relative;
+  color: var(--border);
+  border: 2px solid var(--border);
+  cursor: not-allowed;
+}
+
+.home-container .buttons-container #generer-btn:hover {
+  background-color: transparent;
+}
+
+.home-container .buttons-container #generer-btn span {
+  position: absolute;
+  width: 105px;
+  color: var(--error);
+  bottom: -10px;
+  right: -25px;
+  rotate: -10deg;
+  font-size: 20px;
+}
+
+/* -------About cahier de charge---------- */
+
+.home-container .about-section {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.home-container h2 {
+  font-size: 2rem;
+}
+
+.home-container .about-section .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.home-container .about-section .about p {
+  width: 40%;
+  font-size: 20px;
+}
+
+.home-container .about-section .about img {
+  width: 25rem;
+}
+
+/* -----------BENEFITS SECTION----------- */
+
+.home-container .benefits-section {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+.home-container .benefits-section .benefits-card-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.home-container .benefits-section .benefits-card-container .benefit-card {
+  width: 270px;
+  /* background-color: var(--background); */
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--success);
+  text-align: center;
+}
+
+.home-container .benefits-section .benefits-card-container .benefit-card h4 {
+  color: var(--success);
+  font-size: 20px;
+  margin-bottom: 5px;
+}

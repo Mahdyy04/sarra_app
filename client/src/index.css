@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  font-family: "Inter", serif;
+  --primary: #0073e6; /* Deep blue for trust and professionalism */
+  --primary-light: #60a8f1;
+  --secondary: #f39c12; /* Warm amber for focus and key actions */
+  --background: #f4f6f7; /* Light gray for readability and subtlety */
+  --card-bg: #ffffff; /* Clean white for focus areas */
+  --text-primary: #212f3d; /* Dark gray for headings and primary text*/
+  --text-secondary: #5d6d7e; /* Medium gray for secondary information*/
+  --border: #d5d8dc; /* Soft gray for subtle boundaries */
+  --error: #e63946; /* Red for error or critical messages */
+  --warning: #f4d03f; /* Yellow for warnings */
+  --success: #28b463; /* Green for success messages */
+  --link: #2980b9; /* Slightly lighter blue for links */
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-size: 18px;
+  padding: 0 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.presentation-section{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}

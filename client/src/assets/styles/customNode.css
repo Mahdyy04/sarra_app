@@ -1,0 +1,93 @@
+.node-container {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%; 
+  max-width: 150px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+}
+
+.node-title {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.node-title-only{
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+.node-text {
+  font-size: 7px;
+}
+
+.sadt-node-container{
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-content: center;
+  position: relative;
+}
+
+.sadt-node-text{
+  font-size: 12px;
+  text-align: center;
+}
+
+.sadt-node-container span{
+  font-size: 10px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 6px;
+}
+
+.custom-sadt-node-container{
+  padding: 7px 5px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%; 
+  max-width: 130px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+}
+
+.custom-sadt-title{
+  font-size: 15px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-weight:bold ;
+}
+
+.custom-sadt-text{
+  text-align: center;
+  font-size: 10px;
+}
+
+#sadt-number{
+  font-size: 7px;
+  /* position: absolute;
+  bottom: 5px;
+  right: 5px; */
+  position: relative;
+  bottom: -5px;
+  left: 88%;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
+}

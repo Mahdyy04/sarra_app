@@ -1,0 +1,9 @@
+.coffret-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.coffret-container img{
+    width: 16rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,24 @@
+.text-card {
+  /* border: red 1px solid; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 400px;
+  gap: 2rem;
+}
+
+.text-card .text {
+  width: 60%;
+  align-content: center;
+}
+
+.text-card .img-container {
+  width: 45%;
+  height: 100%;
+}
+
+.text-card .img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

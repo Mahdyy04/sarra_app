@@ -1,0 +1,85 @@
+.contact-page {
+  padding: 2rem;
+  color: var(--text-primary);
+}
+
+.contact-page h1 {
+  font-size: 2.5rem;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-page p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-page .contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--background-light);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.contact-page .form-group {
+  margin-bottom: 1.5rem;
+}
+ 
+.contact-page label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contact-page input,
+.contact-page textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-page input:focus,
+.contact-page textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+.contact-page .submit-btn {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-page .submit-btn:hover {
+  scale: 0.99;
+}
+
+.contact-page .contact-info {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contact-page .contact-info h2 {
+  font-size: 1.5rem;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
+
+.contact-page .contact-info a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.contact-page .contact-info a:hover {
+  text-decoration: underline;
+}

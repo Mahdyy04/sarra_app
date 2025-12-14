@@ -1,0 +1,25 @@
+.navigation {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.navigation > a {
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+  font-size: 15px;
+}
+
+.navigation > a:hover {
+  text-decoration: underline;
+}
+
+.navigation .next {
+  position: absolute;
+  right: 0;
+}
+
+.navigation .previous {
+  position: absolute;
+  left: 0;
+}

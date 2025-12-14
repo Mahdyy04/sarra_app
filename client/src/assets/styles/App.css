@@ -1,0 +1,7 @@
+h1{
+    color: var(--red);
+}
+
+.button{
+    background-color: var(--primary);
+}

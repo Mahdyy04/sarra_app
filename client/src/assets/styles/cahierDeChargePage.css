@@ -1,0 +1,9 @@
+.cahierDeCharge {
+  display: flex;
+  /* align-items: center;
+  justify-content: space-around; */
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

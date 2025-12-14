@@ -1,0 +1,45 @@
+.card{
+    min-height: 20rem;
+    width: 20rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: scale 0.2s ease;
+}
+
+.card:hover{
+    border: 1px solid var(--primary);
+    scale: 1.05;
+}
+
+.img-container{
+    height: 16rem;
+    width: 18rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.button{
+    display: inline-block;
+    border:1px solid var(--primary);
+    color: var(--primary);
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.card:hover .button{
+    color: white;
+    background-color: var(--primary);
+}

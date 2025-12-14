@@ -1,0 +1,7 @@
+.introduction-page img{
+    float: right;
+}
+
+.introduction-page p{
+    max-width: 60ch;
+}
