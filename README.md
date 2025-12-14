@@ -168,7 +168,6 @@ sarra_app/
 ├── backend/
 │   ├── server.js           # Express server and email API
 │   ├── package.json        # Backend dependencies
-│   ├── routes/             # API routes
 │   └── .env               # Environment variables (create this)
 │
 ├── client/
@@ -194,12 +193,10 @@ sarra_app/
 
 ### Email Service
 
-The application uses Gmail SMTP for sending emails. The sender email is configured in `backend/server.js`:
-```javascript
-user: "hachemmeddeb89@gmail.com"
-```
+The application uses Gmail SMTP for sending emails. The sender email is configured in `backend/server.js`. To use your own email:
 
-To use your own email, modify this value and update the `.env` file with your app password.
+1. Update the email address in `backend/server.js` (replace the existing email with yours)
+2. Update the `.env` file with your Gmail app password
 
 ### API Endpoints
 
